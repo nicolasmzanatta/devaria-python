@@ -28,3 +28,19 @@ if __name__ == '__main__':
     # Comentario no python
 
 
+    nota = int(input('Digite sua nota')) #tem q converter a string q o input retorna em int
+
+    if nota <= 30:
+        print("Voce foi reprovado!")
+    elif nota <60:
+        print("Voce ficou de prova final!")
+    else:
+        print("Voce está aprovado")
+
+
+
+
+
+
+
+
